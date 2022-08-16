@@ -10,6 +10,7 @@ public class HomeResource {
 
     @RequestMapping("/home")
     public String message(){
-        return ("<h1>WELCOME</h1>");
+        return ("<h1>WELCOME</h1>\n"+
+        "<h2>to my application</h2>");
     }
 }
